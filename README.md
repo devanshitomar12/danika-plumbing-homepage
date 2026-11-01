@@ -132,12 +132,21 @@ The application is built with static page generation (`next build`) and Next.js 
 
 ### Google PageSpeed Insights Scores
 
-> *Scores should be recorded after deploying to a public production URL (e.g., Vercel).*
+Scores were measured using Google PageSpeed Insights on the deployed Vercel production URL ([https://danika-plumbing-homepage.vercel.app/](https://danika-plumbing-homepage.vercel.app/)) on 2 November 2026. Note that scores may vary between test runs based on network conditions and server response times.
+
+#### Lighthouse Category Scores
 
 | Environment | Performance | Accessibility | Best Practices | SEO |
 | :--- | :---: | :---: | :---: | :---: |
-| **Desktop** | *[ Add score ]* | *[ Add score ]* | *[ Add score ]* | *[ Add score ]* |
-| **Mobile** | *[ Add score ]* | *[ Add score ]* | *[ Add score ]* | *[ Add score ]* |
+| **Desktop** | 99 | 95 | 100 | 100 |
+| **Mobile** | 93 | 95 | 100 | 100 |
+
+#### Measured Performance Metrics
+
+| Environment | First Contentful Paint (FCP) | Largest Contentful Paint (LCP) | Total Blocking Time (TBT) | Cumulative Layout Shift (CLS) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Desktop** | 0.3 s | 0.8 s | 0 ms | 0 |
+| **Mobile** | 1.2 s | 2.9 s | 0 ms | 0 |
 
 ---
 
