@@ -1,6 +1,9 @@
 # Danika Plumbing & Electric — Homepage Redesign
 
-Developer assignment submission for **Ethixweb**: A modernized homepage implementation for **Danika Plumbing & Electric**, based on the live website ([https://danikaplumbing.com/](https://danikaplumbing.com/)).
+Developer assignment submission for **Ethixweb**: A modernized homepage implementation for **Danika Plumbing & Electric**, based on the live reference website ([https://danikaplumbing.com/](https://danikaplumbing.com/)).
+
+- **Live Deployed Website**: [https://danika-plumbing-homepage.vercel.app/](https://danika-plumbing-homepage.vercel.app/)
+- **Original Reference Website**: [https://danikaplumbing.com/](https://danikaplumbing.com/)
 
 This project rebuilds the homepage as a responsive, component-driven Next.js application. It maintains the recognizable brand identity, service hierarchy, and business details of Danika Plumbing & Electric while improving UI structure, typography hierarchy, responsive layouts, and scroll-triggered animations.
 
@@ -200,8 +203,8 @@ Scores were measured using Google PageSpeed Insights on the deployed Vercel prod
 ### 1. Clone & Install
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/devanshitomar12/danika-plumbing-homepage.git
+cd danika-plumbing-homepage
 
 # Install project dependencies
 npm install
