@@ -111,7 +111,7 @@ The layout adapts across standard responsive breakpoints:
 ### Metadata & Structured Data (`src/app/layout.tsx`)
 - **Title**: `Plumber in Everett, WA | Danika Plumbing & Electric | 24/7 Service`
 - **Description**: Detailed local business description highlighting emergency plumbing, sewer, water heaters, and license number.
-- **Canonical URL**: `https://danikaplumbing.com/`
+- **Canonical URL**: `https://danika-plumbing-homepage.vercel.app/`
 - **OpenGraph & Twitter Cards**: Configured with local service tags and brand preview images (`danika-seattle.jpg`).
 - **Structured Data (JSON-LD)**: Schema.org graph for `Plumber`, `Electrician`, and `HomeAndConstructionBusiness` detailing address, geo-coordinates, telephone, hours, and service catalog.
 
